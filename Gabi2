@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site de Filmes Novos de 2025">
+    <title>Filmes Novos 2025</title>
+    <style>
+        /* Reset de margens e padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #ff5722;
+            font-size: 1.1em;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #fff;
+        }
+
+        /* Seção principal */
+        section {
+            padding: 30px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            font-size: 2em;
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* Estilo para cada filme */
+        .movie {
+            background-color: #fafafa;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .movie h3 {
+            font-size: 1.8em;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .movie p {
+            color: #555;
+            font-size: 1.1em;
+        }
+
+        .movie p strong {
+            color: #333;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        footer p {
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Filmes Novos de 2025</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Lançamentos</a></li>
+                <li><a href="#">Gêneros</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Novidades</h2>
+
+        <div class="movie">
+            <h3>Filme 1: O Retorno das Sombras</h3>
+            <p><strong>Data de lançamento:</strong> Janeiro de 2025</p>
+            <p><strong>Sinopse:</strong> Um thriller de ação que explora mistérios sobrenaturais em uma cidade isolada.</p>
+        </div>
+
+        <div class="movie">
+            <h3>Filme 2: A Jornada do Herói</h3>
+            <p><strong>Data de lançamento:</strong> Fevereiro de 2025</p>
+            <p><strong>Sinopse:</strong> Uma história épica sobre a busca de um jovem para salvar seu mundo de uma catástrofe iminente.</p>
+        </div>
+
+        <div class="movie">
+            <h3>Filme 3: O Último Amanhecer</h3>
+            <p><strong>Data de lançamento:</strong> Março de 2025</p>
+            <p><strong>Sinopse:</strong> Uma ficção científica que explora as consequências de uma humanidade vivendo em uma terra pós-apocalíptica.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Filmes Novos. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
