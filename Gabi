@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site de Filmes Novos de 2025">
+    <title>Filmes Novos 2025</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #121212;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #1a1a1a;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            color: #ff5722;
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #ff5722;
+            font-size: 1.1em;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ffffff;
+        }
+
+        section {
+            padding: 30px;
+            background-color: #2a2a2a;
+            margin: 20px 0;
+        }
+
+        section h2 {
+            font-size: 2em;
+            color: #ff5722;
+            text-align: center;
+        }
+
+        .movie {
+            display: flex;
+            justify-content: space-between;
+            padding: 15px;
+            background-color: #333;
+            margin: 15px 0;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .movie:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 15px rgba(255, 87, 34, 0.5);
+        }
+
+        .movie img {
+            width: 150px;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .movie-info {
+            flex: 1;
+            margin-left: 20px;
+        }
+
+        .movie-info h3 {
+            color: #ff5722;
+            font-size: 1.8em;
+            margin: 0;
+        }
+
+        .movie-info p {
+            color: #bbb;
+            font-size: 1em;
+            margin: 5px 0;
+        }
+
+        footer {
+            background-color: #1a1a1a;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        footer p {
+            font-size: 1em;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Filmes Novos de 2025</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Lançamentos</a></li>
+                <li><a href="#">Gêneros</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Novidades</h2>
+
+        <div class="movie">
+            <img src="https://m.media-amazon.com/images/I/51cxJ8uAhzL._AC_SY679_.jpg" alt="O Retorno das Sombras">
+            <div class="movie-info">
+                <h3>O Retorno das Sombras</h3>
+                <p><strong>Data de Lançamento:</strong> Janeiro de 2025</p>
+                <p><strong>Sinopse:</strong> Um thriller de ação que explora mistérios sobrenaturais em uma cidade isolada.</p>
+            </div>
+        </div>
+
+        <div class="movie">
+            <img src="https://m.media-amazon.com/images/I/51mKZnEDYRL._AC_SY679_.jpg" alt="A Jornada do Herói">
+            <div class="movie-info">
+                <h3>A Jornada do Herói</h3>
+                <p><strong>Data de Lançamento:</strong> Fevereiro de 2025</p>
+                <p><strong>Sinopse:</strong> Uma história épica sobre a busca de um jovem para salvar seu mundo de uma catástrofe iminente.</p>
+            </div>
+        </div>
+
+        <div class="movie">
+            <img src="https://m.media-amazon.com/images/I/71ZQ9bNEeKL._AC_SY679_.jpg" alt="O Último Amanhecer">
+            <div class="movie-info">
+                <h3>O Último Amanhecer</h3>
+                <p><strong>Data de Lançamento:</strong> Março de 2025</p>
+                <p><strong>Sinopse:</strong> Uma ficção científica que explora as consequências de uma humanidade vivendo em uma terra pós-apocalíptica.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Filmes Novos. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
